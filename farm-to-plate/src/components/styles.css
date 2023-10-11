@@ -1,0 +1,48 @@
+.confirmemailbackground {
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+
+.confirmemailcontent p {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.confirmemailcontent h2 {
+    color: rgb(0, 0, 0);
+   font-size: 3rem;
+}
+
+.confirmemailbackground .confirmemailcontent{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+   
+
+
+.confirmemailcontent label,input {
+    display: flex;
+    flex-direction: column;
+     width: 360px;
+}

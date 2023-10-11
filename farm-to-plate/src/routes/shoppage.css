@@ -1,0 +1,19 @@
+.shopcontainer {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+.shopcontainer .shopimg img,
+.shopcontainer .shopmap iframe
+{
+    margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 640px) {
+    .shopcontainer {
+      grid-template-columns: 1fr;
+    }
+  }

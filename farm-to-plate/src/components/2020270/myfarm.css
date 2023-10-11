@@ -1,0 +1,72 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.text-center{
+}
+.bg-primary {
+  background-color:rgba(244, 243, 243, 0.874);
+}
+
+.container-column{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+align-content: center;
+
+
+}
+
+
+.farms {
+  padding-top: 600 px;
+  margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+margin-bottom: 50px;
+text-align: center; 
+ 
+
+}
+.farm{
+padding: 20px;
+border: 1px solid black;
+}
+.farm img {
+display: block;
+width: 100%;
+}
+.fLoc, .fName {
+  margin-top: 20px;
+  color:black ;
+
+}
+
+.Editfbtn {
+  background-color: rgba(211, 1, 1, 0.985);
+  border-radius: 8px;
+  color: #fbfbfb;
+  font-size: 19px;
+}
+.editfarms {
+  padding-top: 600 px;
+  margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+margin-bottom: 50px;
+text-align: center; 
+ 
+
+}
+.editfarm{
+padding: 20px;
+border: 1px solid black;
+}
+.Editfarmbtn {
+  background-color: rgba(211, 1, 1, 0.985);
+  border-radius: 8px;
+  color: #fbfbfb;
+  font-size: 19px;
+}

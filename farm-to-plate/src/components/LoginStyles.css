@@ -1,0 +1,69 @@
+.LoginForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-position: bottom center;
+  }
+  
+  .LoginForm form {
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+      
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  .LoginForm h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgb(105, 30, 30);
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .LoginForm label {
+    display: flex;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .LoginForm input[type="text"],
+  .LoginForm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(105, 30, 30);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  .LoginForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(105, 30, 30);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .LoginForm input[type="submit"]:hover {
+    background-color: rgb(105, 30, 30);
+  }
+  
+  .LoginForm a {
+      color: black;
+  }

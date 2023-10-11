@@ -1,0 +1,144 @@
+.reviewbackground{
+  display: flex;
+  height: fit-content;
+  width: 100%;
+  background-image: url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+  background-position: bottom center;
+  background: cover;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.reviewbackground{
+  align-items:center;
+  justify-content: center;
+}
+
+.reviewbackground .reviewsection{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.reviewsection {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  padding: 1rem 1rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.reviewsection h2{
+  text-align: center;
+}
+
+.reviewsection textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 1.2rem;
+  color: #1d0909;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  min-height: 200px;
+  resize: vertical;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 2px solid rgb(105, 30, 30);
+
+}
+
+.reviewsection button[type='submit'] {
+  width: 100%;
+  display: inline-block;
+  padding: 10px 30px;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 4px solid rgb(36, 127, 150);
+  margin-right: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: .1rem;
+  margin-top: 30px;
+  transition: .3s ease;
+  transition-property: background-color, color;
+  
+  }
+.reviewsection button[type='submit']:hover{
+  color: white;
+  background-color: rgb(36, 127, 150);
+  }
+
+  .reviewsection input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #000000;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgb(105, 30, 30);
+    border-radius: 5px;
+    margin-top: 0.8rem;
+  }
+
+  .reviewsection label {
+    font-size: 18px;
+    color: gray;
+  }
+   
+.reviewsection .starwrapper label{
+  display: inline-block;
+  width: 130px;
+  position: relative;
+  cursor: pointer;
+}
+
+.reviewsection .starwrapper label:before{
+  content: "\2605";
+  position: relative;
+  font-size: 120px;
+  display: block;
+  top: 0;
+  bottom: 0;
+  
+}
+
+.reviewsection .starwrapper input{
+  display: none;
+}
+
+.starwrapper{
+  text-align: center;
+}
+
+.reviewsection .starwrapper label:after{
+  content: "\2605";
+  position: relative;
+  font-size: 120px;
+  display: block;
+  top: -91px;
+  bottom: 0;
+  opacity: 0;
+  line-height: 0px;
+  color: gold;
+  
+}
+
+.reviewsection .starwrapper label:hover::after,
+.reviewsection .starwrapper label:hover ~ label::after,
+.reviewsection .starwrapper input:checked ~ label::after
+
+{
+  opacity: 1;
+}
+
+.starwrapper{
+  direction: rtl;
+}

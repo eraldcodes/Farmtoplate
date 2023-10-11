@@ -1,0 +1,19 @@
+#hero{
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-size: contain;
+    position: relative;
+    z-index: -999;
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}

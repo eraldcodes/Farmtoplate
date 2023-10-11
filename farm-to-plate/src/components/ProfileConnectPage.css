@@ -1,0 +1,32 @@
+.Connectpage{
+    color: rgb(0, 0, 0);
+    margin: 10px 10px auto;
+    padding: 10px;
+    height:100%;
+    max-width: 450px;
+    width: 100vw;
+    margin: 2em auto;
+    text-align: left;
+    font-family: "Poppins", cursive;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);   
+    padding-top: 100px;
+  
+}
+.PC{
+    background-image: url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.FarmProfile{
+   
+    text-align: left;
+}
+.btnconnect{
+    text-align:center;
+background-color: rgb(246, 246, 246);
+}

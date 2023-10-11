@@ -1,0 +1,39 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url(../img/pexels-eberhard-grossgasteiger-2088170.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form{
+      background-color: transparent;
+      padding: 0px 60px;
+      border-radius: 10px;
+  }
+  
+  h1{
+      color: rgb(77, 1, 77);
+      text-align: center;
+  }
+  
+  button{
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      border: none;
+      background-color: rgb(122, 18, 18);
+      color: white;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+  }
